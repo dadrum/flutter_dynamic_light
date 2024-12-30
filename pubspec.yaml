@@ -1,0 +1,26 @@
+name: dynamic_light
+description: "dynamic_light Flutter project."
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+  dep_gen: 1.1.5
+  cupertino_icons: 1.0.8
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  shaders:
+    - assets/shaders/light_shader.frag
+
+  assets:
+    - assets/images/
